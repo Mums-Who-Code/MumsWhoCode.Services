@@ -18,7 +18,7 @@ namespace MyPortfolio.Services.Infrastructure.Build
 
             var githubPipeline = new GithubPipeline
             {
-                Name = ".Net",
+                Name = ".NET",
 
                 OnEvents = new Events
                 {
