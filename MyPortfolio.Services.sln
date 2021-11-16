@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyPortfolio.services.api", "MyPortfolio.services.api\MyPortfolio.services.api.csproj", "{3E2BC94A-D0F4-47C2-939A-D8F65B1BEBBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyPortfolio.Services.Api", "MyPortfolio.services.api\MyPortfolio.Services.Api.csproj", "{3E2BC94A-D0F4-47C2-939A-D8F65B1BEBBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
