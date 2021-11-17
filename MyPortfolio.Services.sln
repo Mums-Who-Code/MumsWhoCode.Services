@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyPortfolio.Services.Api", "MyPortfolio.services.api\MyPortfolio.Services.Api.csproj", "{3E2BC94A-D0F4-47C2-939A-D8F65B1BEBBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPortfolio.Services.Tests.Unit", "MyPortfolio.Services.Tests.Unit\MyPortfolio.Services.Tests.Unit.csproj", "{106362E4-DF24-46CA-8D7A-102852EB65D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3E2BC94A-D0F4-47C2-939A-D8F65B1BEBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E2BC94A-D0F4-47C2-939A-D8F65B1BEBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E2BC94A-D0F4-47C2-939A-D8F65B1BEBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106362E4-DF24-46CA-8D7A-102852EB65D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106362E4-DF24-46CA-8D7A-102852EB65D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106362E4-DF24-46CA-8D7A-102852EB65D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106362E4-DF24-46CA-8D7A-102852EB65D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
