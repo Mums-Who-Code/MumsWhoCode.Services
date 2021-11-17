@@ -15,7 +15,7 @@ namespace MyPortfolio.Services.Api
     {
         public Startup(IConfiguration configuration) =>
             Configuration = configuration;
-       
+
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)
@@ -24,10 +24,10 @@ namespace MyPortfolio.Services.Api
 
             services.AddSwaggerGen(options =>
             {
-                var openApiInfo = new OpenApiInfo 
+                var openApiInfo = new OpenApiInfo
                 {
-                    Title = "MyPortfolio.Services.api", 
-                    Version = "v1" 
+                    Title = "MyPortfolio.Services.api",
+                    Version = "v1"
                 };
 
                 options.SwaggerDoc(
