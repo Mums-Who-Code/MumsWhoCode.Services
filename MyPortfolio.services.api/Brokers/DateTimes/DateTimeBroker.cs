@@ -4,10 +4,11 @@
 
 using System;
 
-namespace MyPortfolio.Services.Api.Brokers.DateTime
+namespace MyPortfolio.Services.Api.Brokers.DateTimes
 {
-    public interface IDateTimeBroker
+    public class DateTimeBroker : IDateTimeBroker
     {
-        DateTimeOffset GetCurrentDateTime();
+        public DateTimeOffset GetCurrentDateTime() =>
+            DateTimeOffset.UtcNow;
     }
 }
