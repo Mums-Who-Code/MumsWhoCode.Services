@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using MyPortfolio.Services.Api.Brokers.DateTimes;
+using MyPortfolio.Services.Api.Brokers.Loggings;
 
 namespace MyPortfolio.Services.Api
 {
@@ -22,7 +23,8 @@ namespace MyPortfolio.Services.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddTransient<IDateTimeBroker, DateTimeBroker>();
+            services.AddLogging();
+            AddBrokers(services);
 
             services.AddSwaggerGen(options =>
             {
@@ -57,6 +59,12 @@ namespace MyPortfolio.Services.Api
             app.UseRouting();
             app.UseAuthorization();
             app.UseEndpoints(endpoints => endpoints.MapControllers());
+        }
+
+        private static void AddBrokers(IServiceCollection services)
+        {
+            services.AddTransient<IDateTimeBroker, DateTimeBroker>();
+            services.AddTransient<ILoggingBroker, LoggingBroker>();
         }
     }
 }
