@@ -1,6 +1,8 @@
 ﻿// -----------------------------------------------------------------------
 // Copyright (c) MumsWhoCode. All rights reserved.
 // -----------------------------------------------------------------------
+
+using System.Net.Http;
 using Microsoft.AspNetCore.Mvc.Testing;
 using MyPortfolio.Services.Api;
 using RESTFulSense.Clients;

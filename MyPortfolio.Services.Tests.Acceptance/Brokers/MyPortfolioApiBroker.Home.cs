@@ -2,6 +2,8 @@
 // Copyright (c) MumsWhoCode. All rights reserved.
 // -----------------------------------------------------------------------
 
+using System.Threading.Tasks;
+
 namespace MyPortfolio.Services.Tests.Acceptance.Brokers
 {
     public partial class MyPortfolioApiBroker

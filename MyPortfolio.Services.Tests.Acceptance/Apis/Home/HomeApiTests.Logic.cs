@@ -2,6 +2,7 @@
 // Copyright (c) MumsWhoCode. All rights reserved.
 // -----------------------------------------------------------------------
 
+using System.Threading.Tasks;
 using FluentAssertions;
 using Xunit;
 
