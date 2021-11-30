@@ -10,7 +10,6 @@ namespace MyPortfolio.Services.Tests.Acceptance.Apis.Home
 {
     public partial class HomeApiTests
     {
-
         [Fact]
         public async Task ShouldReturnHomeMessageAsync()
         {
