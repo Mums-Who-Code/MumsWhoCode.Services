@@ -19,7 +19,7 @@ namespace MyPortfolio.Services.Tests.Acceptance.Apis.Home
 
             // when
             string actualHomeMessage =
-               await this.myportfolioApiBroker.GetHomeMessageAsync();
+               await this.myPortfolioApiBroker.GetHomeMessageAsync();
 
             // then
             actualHomeMessage.Should().BeEquivalentTo(expectedHomeMessage);
