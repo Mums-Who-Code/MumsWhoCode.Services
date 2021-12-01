@@ -4,9 +4,9 @@
 
 using System.Threading.Tasks;
 
-namespace MyPortfolio.Services.Tests.Acceptance.Brokers
+namespace MumsWhoCode.Services.Tests.Acceptance.Brokers
 {
-    public partial class MyPortfolioApiBroker
+    public partial class MumsWhoCodeApiBroker
     {
         private const string HomeRelativeUrl = "api/home";
 

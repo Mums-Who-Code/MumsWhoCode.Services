@@ -4,7 +4,7 @@
 
 using Xunit;
 
-namespace MyPortfolio.Services.Tests.Unit
+namespace MumsWhoCode.Services.Tests.Unit
 {
     public class DeleteMe
     {

@@ -8,10 +8,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using MyPortfolio.Services.Api.Brokers.DateTimes;
-using MyPortfolio.Services.Api.Brokers.Loggings;
+using MumsWhoCode.Services.Api.Brokers.DateTimes;
+using MumsWhoCode.Services.Api.Brokers.Loggings;
 
-namespace MyPortfolio.Services.Api
+namespace MumsWhoCode.Services.Api
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace MyPortfolio.Services.Api
             {
                 var openApiInfo = new OpenApiInfo
                 {
-                    Title = "MyPortfolio.Services.api",
+                    Title = "MumsWhoCode.Services.api",
                     Version = "v1"
                 };
 
@@ -51,7 +51,7 @@ namespace MyPortfolio.Services.Api
                 {
                     options.SwaggerEndpoint(
                         url: "/swagger/v1/swagger.json",
-                        name: "MyPortfolio.Services.api v1");
+                        name: "MumsWhoCode.Services.api v1");
                 });
             }
 

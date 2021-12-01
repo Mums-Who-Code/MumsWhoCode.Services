@@ -5,7 +5,7 @@
 using Microsoft.AspNetCore.Mvc;
 using RESTFulSense.Controllers;
 
-namespace MyPortfolio.Services.Api.Controllers
+namespace MumsWhoCode.Services.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
