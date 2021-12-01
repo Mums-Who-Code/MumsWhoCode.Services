@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyPortfolio.services.api\MumsWhoCode.Services.Api.csproj" />
+    <ProjectReference Include="..\MumsWhoCode.Services.Api\MumsWhoCode.Services.Api.csproj" />
   </ItemGroup>
 
 </Project>
