@@ -4,18 +4,18 @@
 
 using System.Net.Http;
 using Microsoft.AspNetCore.Mvc.Testing;
-using MyPortfolio.Services.Api;
 using RESTFulSense.Clients;
+using MumsWhoCode.Services.Api;
 
-namespace MyPortfolio.Services.Tests.Acceptance.Brokers
+namespace MumsWhoCode.Services.Tests.Acceptance.Brokers
 {
-    public partial class MyPortfolioApiBroker
+    public partial class MumsWhoCodeApiBroker
     {
         private readonly WebApplicationFactory<Startup> webApplicationFactory;
         private readonly HttpClient httpClient;
         private readonly IRESTFulApiFactoryClient apiFactoryClient;
 
-        public MyPortfolioApiBroker()
+        public MumsWhoCodeApiBroker()
         {
             this.webApplicationFactory = new WebApplicationFactory<Startup>();
             this.httpClient = this.webApplicationFactory.CreateClient();

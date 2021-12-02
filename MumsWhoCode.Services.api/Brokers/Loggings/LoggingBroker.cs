@@ -5,7 +5,7 @@
 using System;
 using Microsoft.Extensions.Logging;
 
-namespace MyPortfolio.Services.Api.Brokers.Loggings
+namespace MumsWhoCode.Services.Api.Brokers.Loggings
 {
     public class LoggingBroker : ILoggingBroker
     {

@@ -4,7 +4,7 @@
 
 using System;
 
-namespace MyPortfolio.Services.Api.Brokers.Loggings
+namespace MumsWhoCode.Services.Api.Brokers.Loggings
 {
     public interface ILoggingBroker
     {

@@ -4,10 +4,10 @@
 
 using Xunit;
 
-namespace MyPortfolio.Services.Tests.Acceptance.Brokers
+namespace MumsWhoCode.Services.Tests.Acceptance.Brokers
 {
     [CollectionDefinition(nameof(ApiTestCollection))]
-    public class ApiTestCollection : ICollectionFixture<MyPortfolioApiBroker>
+    public class ApiTestCollection : ICollectionFixture<MumsWhoCodeApiBroker>
     {
     }
 }

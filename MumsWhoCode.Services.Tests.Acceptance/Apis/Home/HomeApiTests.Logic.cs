@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using Xunit;
 
-namespace MyPortfolio.Services.Tests.Acceptance.Apis.Home
+namespace MumsWhoCode.Services.Tests.Acceptance.Apis.Home
 {
     public partial class HomeApiTests
     {
@@ -19,7 +19,7 @@ namespace MyPortfolio.Services.Tests.Acceptance.Apis.Home
 
             // when
             string actualHomeMessage =
-               await this.myPortfolioApiBroker.GetHomeMessageAsync();
+               await this.mumsWhoCodeApiBroker.GetHomeMessageAsync();
 
             // then
             actualHomeMessage.Should().BeEquivalentTo(expectedHomeMessage);
