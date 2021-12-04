@@ -10,6 +10,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using MumsWhoCode.Services.Api.Brokers.DateTimes;
 using MumsWhoCode.Services.Api.Brokers.Loggings;
+using MumsWhoCode.Services.Api.Brokers.Storages;
 
 namespace MumsWhoCode.Services.Api
 {
@@ -65,6 +66,7 @@ namespace MumsWhoCode.Services.Api
         {
             services.AddTransient<IDateTimeBroker, DateTimeBroker>();
             services.AddTransient<ILoggingBroker, LoggingBroker>();
+            services.AddTransient<IStorageBroker, StorageBroker>();
         }
     }
 }
