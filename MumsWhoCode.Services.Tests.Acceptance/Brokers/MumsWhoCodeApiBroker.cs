@@ -4,8 +4,8 @@
 
 using System.Net.Http;
 using Microsoft.AspNetCore.Mvc.Testing;
-using RESTFulSense.Clients;
 using MumsWhoCode.Services.Api;
+using RESTFulSense.Clients;
 
 namespace MumsWhoCode.Services.Tests.Acceptance.Brokers
 {
