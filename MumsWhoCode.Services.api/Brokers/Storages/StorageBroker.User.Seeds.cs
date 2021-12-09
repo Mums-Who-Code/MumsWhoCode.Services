@@ -14,7 +14,7 @@ namespace MumsWhoCode.Services.Api.Brokers.Storages
         {
             var serviceAdminUser = new User
             {
-                Id = Guid.Parse("ddfbc0ff - 2de7 - 44bc - b4a9 - 39fe281836f9"),
+                Id = Guid.Parse("ddfbc0ff-2de7-44bc-b4a9-39fe281836f9"),
                 Name = "Admin"
             };
 
