@@ -2,9 +2,13 @@
 // Copyright (c) MumsWhoCode. All rights reserved.
 // -----------------------------------------------------------------------
 
-namespace MumsWhoCode.Services.Api.Brokers.Storages
+using System;
+
+namespace MumsWhoCode.Services.Api.Models.Users
 {
-    public partial interface IStorageBroker
+    public class User
     {
+        public Guid Id { get; set; }
+        public string Name { get; set; }
     }
 }
