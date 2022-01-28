@@ -12,18 +12,16 @@ namespace MumsWhoCode.Services.Api.Brokers.Storages
         private static void SetParticipantReferences(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Participant>()
-                .HasOne(Participant => Participant.CreatedByUser)
+                .HasOne(participant => participant.CreatedByUser)
                 .WithMany(user => user.CreatedParticipants)
-                .HasForeignKey(category => category.CreatedBy)
+                .HasForeignKey(participant => participant.CreatedBy)
                 .OnDelete(DeleteBehavior.NoAction);
 
             modelBuilder.Entity<Participant>()
-                .HasOne(Participant => Participant.UpdatedByUser)
+                .HasOne(participant => participant.UpdatedByUser)
                 .WithMany(user => user.UpdatedParticipants)
-                .HasForeignKey(category => category.UpdatedBy)
+                .HasForeignKey(participant => participant.UpdatedBy)
                 .OnDelete(DeleteBehavior.NoAction);
         }
     }
 }
-
-
