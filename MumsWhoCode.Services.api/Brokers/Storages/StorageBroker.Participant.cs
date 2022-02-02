@@ -3,12 +3,12 @@
 // -----------------------------------------------------------------------
 
 using Microsoft.EntityFrameworkCore;
-using MumsWhoCode.Services.Api.Models.Users;
+using MumsWhoCode.Services.Api.Models.Participants;
 
 namespace MumsWhoCode.Services.Api.Brokers.Storages
 {
     public partial class StorageBroker
     {
-        DbSet<User> Users { get; set; }
+        DbSet<Participant> Participants { get; set; }
     }
 }

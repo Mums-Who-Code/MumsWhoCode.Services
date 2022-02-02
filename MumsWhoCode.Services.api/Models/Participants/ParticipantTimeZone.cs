@@ -2,13 +2,14 @@
 // Copyright (c) MumsWhoCode. All rights reserved.
 // -----------------------------------------------------------------------
 
-using Microsoft.EntityFrameworkCore;
-using MumsWhoCode.Services.Api.Models.Users;
-
-namespace MumsWhoCode.Services.Api.Brokers.Storages
+namespace MumsWhoCode.Services.Api.Models.Participants
 {
-    public partial class StorageBroker
+    public enum ParticipantTimeZone
     {
-        DbSet<User> Users { get; set; }
+        CST,
+        EST,
+        IST,
+        PST,
+        Other
     }
 }

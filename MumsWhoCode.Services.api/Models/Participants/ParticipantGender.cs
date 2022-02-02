@@ -2,13 +2,12 @@
 // Copyright (c) MumsWhoCode. All rights reserved.
 // -----------------------------------------------------------------------
 
-using Microsoft.EntityFrameworkCore;
-using MumsWhoCode.Services.Api.Models.Users;
-
-namespace MumsWhoCode.Services.Api.Brokers.Storages
+namespace MumsWhoCode.Services.Api.Models.Participants
 {
-    public partial class StorageBroker
+    public enum ParticipantGender
     {
-        DbSet<User> Users { get; set; }
+        Female,
+        Male,
+        Other
     }
 }
