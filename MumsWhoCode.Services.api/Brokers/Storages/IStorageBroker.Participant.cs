@@ -9,6 +9,6 @@ namespace MumsWhoCode.Services.Api.Brokers.Storages
 {
     public partial interface IStorageBroker
     {
-        ValueTask<Participant> InsertCategoryAsync(Participant participant);
+        ValueTask<Participant> InsertParticipantAsync(Participant participant);
     }
 }
