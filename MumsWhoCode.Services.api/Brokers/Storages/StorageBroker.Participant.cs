@@ -13,7 +13,7 @@ namespace MumsWhoCode.Services.Api.Brokers.Storages
     {
         DbSet<Participant> Participants { get; set; }
 
-        public async ValueTask<Participant> InsertCategoryAsync(Participant participant)
+        public async ValueTask<Participant> InsertParticipantAsync(Participant participant)
         {
             using var broker = new StorageBroker(this.configuration);
 
